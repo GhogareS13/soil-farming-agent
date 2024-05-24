@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    
+    background: url(1.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+}
+.main h1{
+
+text-align: center;
+color:white;
+font-family: 'Times New Roman';
+font-size: 42px;
+
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:white;
+    position: relative;
+}
+
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 22px;
+}
+
+.content h2{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 3%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+  
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: white;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 46px
+}
